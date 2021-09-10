@@ -15,13 +15,14 @@ public class StringDriver {
         first = keyboard.nextLine();
         System.out.print("enter last name: ");
         last = keyboard.nextLine();
-        //call myConcat function to combine first and last and initialize
-        // fullName
-        fullName = fun.myConcat(first, last);
         //call functions from StringsFun class to manipulate text entered by
         // user
+        fullName = fun.myConcat(first, last);
+
         fun.swap(fullName);
+
         fun.backWards(fullName);
+        //close instance of Scanner
         keyboard.close();
     }
 }

@@ -22,5 +22,6 @@ public class StringDriver {
         // user
         fun.swap(fullName);
         fun.backWards(fullName);
+        keyboard.close();
     }
 }

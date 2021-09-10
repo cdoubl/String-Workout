@@ -11,7 +11,7 @@ public class StringsFun {
      *
      * @param s
      */
-    public static void swap(String s) {
+    public void swap(String s) {
         /* used an instance StringBuilder class instead of String since I'm
         trying to improve my skills with this function.
          */
@@ -38,7 +38,7 @@ public class StringsFun {
      *
      * @param fullName
      */
-    public static void backWards(String fullName) {
+    public void backWards(String fullName) {
         char[] c = fullName.toCharArray();
         System.out.println("Here's your name spelled backwards: ");
         for (int i = c.length - 1; i >= 0; i--) {
@@ -51,7 +51,7 @@ public class StringsFun {
      * @param l
      * @return
      */
-    public static String myConcat(String f, String l){
+    public String myConcat(String f, String l){
         //make sure there's a space between f and l when concatenated
         String fullName = f.concat(" ").concat(l);
         return fullName;

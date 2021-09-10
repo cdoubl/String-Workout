@@ -13,7 +13,7 @@ public class StringsFun {
      */
     public void swap(String s) {
         /* used an instance StringBuilder class instead of String since I'm
-        trying to improve my skills with this function.
+        trying to improve my skills with this object's functionality.
          */
         StringBuilder swapper = new StringBuilder();
         /*
